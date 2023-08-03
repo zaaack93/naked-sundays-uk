@@ -1,0 +1,82 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Keep up to date!",
+            "text": "<p>Subscribe to get special offers, free giveaways, and the first dibs on all new products!<\/p>",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 25
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu",
+            "title": "",
+            "column_width": 25
+          }
+        },
+        "7b196db8-9501-43f1-ace0-9a8f46f6c27b": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "Warning",
+            "text": "<p>Use SPF as directed. Reapply Often. Stay out of the sun where possible. Wear protective clothing and eyewear as SPF is only one form of sun protection. <\/p>",
+            "column_width": 25
+          }
+        },
+        "bc36ab88-2368-468e-ab3f-870e8a9f7fb2": {
+          "type": "social",
+          "settings": {
+            "title": "Let's get social!",
+            "text": "",
+            "column_width": 25
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "7b196db8-9501-43f1-ace0-9a8f46f6c27b",
+        "bc36ab88-2368-468e-ab3f-870e8a9f7fb2"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/NakedSundays-Logo_MultiColor_1f01187f-141c-4d56-9ec2-4b28a6e9a426_1.png",
+        "logo_image_width": 150,
+        "overlay_opacity": 75,
+        "overlay_color": "#e2def9",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "policies",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "type": "currency",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}

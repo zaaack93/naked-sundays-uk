@@ -1,0 +1,324 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NS_-_Hero.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "show_overlay_text": true,
+            "title": "Award-winning SPF for skincare lovers.",
+            "heading_size": 8,
+            "description": "",
+            "text_size": 5,
+            "flex_align": "align--bottom-center",
+            "bg_color": "rgba(0,0,0,0)",
+            "color": "#ffffff",
+            "first_button_text": "SHOP NOW",
+            "first_button_link": "shopify:\/\/collections\/all-products",
+            "first_button_type": "btn--primary",
+            "first_button_size": "btn--large",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": true,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "721cee9c-ec39-4ce5-a510-c6fea56b4a5d": {
+      "type": "section-press-logos",
+      "blocks": {
+        "d70240e7-7aa7-46da-ad56-a2b9811cfd0c": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Press_logo_6.png",
+            "logo_width": 140,
+            "link": "",
+            "description": "",
+            "heading_size": 6
+          }
+        },
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-0": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Press_logo.png",
+            "logo_width": 140,
+            "link": "",
+            "description": "",
+            "heading_size": 6
+          }
+        },
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-1": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Press_logo_1.png",
+            "logo_width": 150,
+            "link": "",
+            "description": "",
+            "heading_size": 6
+          }
+        },
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-2": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Press_logo_4.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "",
+            "heading_size": 6
+          }
+        },
+        "74866907-ffe8-4ad2-86cb-3390c205dc00": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Press_logo_5.png",
+            "logo_width": 130,
+            "link": "",
+            "description": "",
+            "heading_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "d70240e7-7aa7-46da-ad56-a2b9811cfd0c",
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-0",
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-1",
+        "template--14816990855253__721cee9c-ec39-4ce5-a510-c6fea56b4a5d-1687242711bb5d3120-2",
+        "74866907-ffe8-4ad2-86cb-3390c205dc00"
+      ],
+      "settings": {
+        "title": "",
+        "enable_heading_slider": true,
+        "text_style": "font-body",
+        "logo_opacity": 100,
+        "bg_color": "#ebdcff",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured-collection": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Bestsellers & New Releases",
+        "description": "",
+        "layout": "center",
+        "link_text": "Shop All",
+        "link_url": "shopify:\/\/collections\/all-products",
+        "button_type": "btn--primary",
+        "button_size": "btn--large",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "featured_collection": "all-products",
+        "style": "grid",
+        "grid": 4,
+        "rows": 2,
+        "layout_mobile": "2",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "6f77309d-042d-496d-8929-786f2a047040": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>100% VEGAN<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CRUELTY FREE<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>High Performance SPF<\/strong><\/p>",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-0",
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-1",
+        "template--14816990855253__6f77309d-042d-496d-8929-786f2a047040-16872437883ffc68ca-3"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "slider_speed": 7,
+        "marquee_speed": 100,
+        "text_size": 2,
+        "bg_color": "#fdffda",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "499f1857-9157-4b13-a25a-97647ce1dd23": {
+      "type": "section-double",
+      "blocks": {
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Meet Naked Sundays",
+            "text_size": 6
+          }
+        },
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to the home of skin-loving, multi-tasking SPF skincare. <\/p><p>Our multi-purpose, world-first formulas are made in Australia, marrying powerful Aussie botanicals and antioxidants, with high performance, science-backed SPF. <\/p><p>Our mission is simple: decrease the rates of skin cancers and melanoma with sunscreens you love to wear. <\/p><p>Don't leave home without us!  <\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "shopify:\/\/pages\/about-us",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-0",
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-1",
+        "template--14816990855253__499f1857-9157-4b13-a25a-97647ce1dd23-1687243997131d82e8-2"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Meet_Naked_Sundays_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "#f5eefe",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_size": 45,
+            "icon_color": "#ff81f5",
+            "title": "Vegan",
+            "heading_size": 4,
+            "text": "<p>We fight to ensure that our products are 100% vegan and of course, cruelty free. We are only tested on SPF-loving humans and all our ingredients are sustainably sourced.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-lightening",
+            "icon_size": 45,
+            "icon_color": "#ff81f5",
+            "title": "High Performance",
+            "heading_size": 4,
+            "text": "<p>Our science-backed products adhere to worldwide SPF standards <br\/>with rigorous testing of every single batch we put out into the world. <\/p><p><\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-gift",
+            "icon_size": 45,
+            "icon_color": "#ff81f5",
+            "title": "Our Mission",
+            "heading_size": 4,
+            "text": "<p>We are dedicated to the mission of lowering melanoma rates for <br\/>the next generation, with a percentage of all profits going towards melanoma research and finding a cure<\/p><p><\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 4,
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-top",
+        "width": "wrapper",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    },
+    "5c866de5-a5ab-4030-9880-963a94442d62": {
+      "type": "section-blog",
+      "settings": {
+        "blog_name": "how-to-spf-with-naked-sundays",
+        "title": "Blog posts",
+        "grid": 4,
+        "rows": 1,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "bg_color": "#f5eefe",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "721cee9c-ec39-4ce5-a510-c6fea56b4a5d",
+    "featured-collection",
+    "6f77309d-042d-496d-8929-786f2a047040",
+    "499f1857-9157-4b13-a25a-97647ce1dd23",
+    "icons",
+    "5c866de5-a5ab-4030-9880-963a94442d62"
+  ]
+}
