@@ -16,6 +16,8 @@
   {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+  <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
+
 
   {%- if settings.loading_image_1 != blank or settings.loading_image_2 != blank -%}
   {%- style -%}
@@ -77,6 +79,7 @@
   {% render 'css-variables' %}
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {{ 'main.css' | asset_url | stylesheet_tag }}
 
   {% if request.design_mode %}
     {{ 'design-mode.css' | asset_url | stylesheet_tag }}
@@ -149,6 +152,8 @@
       moneyWithoutCurrencyFormat: {{ shop.money_format | json }},
       moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
       subtotal: {{ cart.items_subtotal_price | json }},
+      free_gift_limit : {{ settings.free_gift_limit | times: 100 }},
+      enable_freegift : {{ settings.enable_freegift }},
       info: {
         name: 'broadcast'
       },
@@ -237,6 +242,8 @@
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   {%- endcomment -%}
   <!-- Paste marketing code or third party scripts below this comment line ============== -->
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
 
 <!-- Stamped - Begin script -->
   <script>function myInit(){ StampedFn.init({ apiKey: 'pubkey-C1Y73AgFhi2cS17uzPu2vCge1E2cbJ', sId: '251206' }); }</script>

@@ -233,6 +233,60 @@
           </div>
         </div>
 
+        {% comment %} cart gift begin {% endcomment %}
+        {%- assign freegiftlimit = settings.free_gift_limit | times: 100 -%}
+        {%- assign subtotal = cart.total_price | plus: 0 -%}
+        {% if cart_items_size > 0 and settings.enable_freegift %}
+          
+          {%- assign giftcollection = collections[settings.collection] -%}
+          {%- assign gift_products = giftcollection.products | where: "available" -%}
+          {% if gift_products.size > 0 %}
+          <div content-gift-product>
+          <div class="free_gift_message {% if subtotal >= freegiftlimit %}hide{% endif %}" data-cart-free-message>
+            <div class="message-bg">Spend <span id="remaining-amount">{{ freegiftlimit | minus: subtotal | money}}</span> more to qualify for your free gift!</div>
+          </div>
+          
+          <div class="free_gift_product {% if subtotal < freegiftlimit %}hide{% endif %}" data-cart-free-product>
+            {% assign productsHandlesInCart  = ''%}
+                
+            {% for item in cart.items %}
+              {%- for p in item.properties -%}
+                {% if p contains 'isGiftProduct' %}
+                  {% assign isGiftAdded  = true %}
+                {%endif%}
+              {%endfor%}
+              {% assign productsHandlesInCart = productsHandlesInCart | append : "," | append : item.product.handle %}
+            {% endfor %}
+            {% if isGiftAdded == true %}
+              <div class="message-bg congrates open">Congrats, your free gift is added to cart!</div>
+            {%else%}
+              <div class="message-bg congrates open">Congrats! You are now eligible for 1 free gift.</div>
+            {%endif%}
+            
+            <div class="gift_product">
+              <div class="product-grid">
+                {%- if giftcollection != blank and giftcollection.products.size > 0 -%}
+                {% assign isProductInCart  = false %}
+                {%- for product in giftcollection.products  -%}
+                  {% if productsHandlesInCart contains product.handle %}
+                      {% assign isProductInCart  = true %}
+                  {% else%}
+                      {% assign isProductInCart  = false %}
+                  {%endif%}
+                  {%- render 'giftproduct-grid-item', product: product, isProductInCart : isProductInCart, isGiftAdded : isGiftAdded -%}
+                {%- endfor -%}
+                {% endif %}
+                {% if isGiftAdded == true %}
+                <div class="btn-wrap text-center"><a class="imdone btn btn--primary btn--solid" href="javascript:void(0);" data-pdp-json="">I'm Done!</a></div>
+                {% endif %}
+              </div> 
+            </div>
+          </div>
+          </div>
+          {% endif %}
+          {% endif %}
+        {% comment %} cart gift end {% endcomment %}
+
         <div class="cart__items"
           data-items-holder
           data-animation="{{ animation_name }}"
@@ -691,6 +745,10 @@
       "unit": "px",
       "label": "Padding bottom",
       "default": 50
+    },
+    {	
+      "type": "header",	
+      "content": "Free shipping message"	
     }
   ],
   "blocks": [

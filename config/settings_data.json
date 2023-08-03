@@ -61,6 +61,7 @@
     "free_shipping_limit": "49",
     "free_shipping_gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
     "cart_custom_message_text": "",
+    "collection": "mists",
     "link_hover_color": "#bcb2a8",
     "header_link_hover": "#AB8C52",
     "show_logo_bg": false,
