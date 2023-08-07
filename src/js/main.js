@@ -72,7 +72,7 @@ $(document).on("click", ".ajax-add-to-cart", function () {
   
   function addToCartJS(qty, variantID) {
     var data = { quantity: qty, id: variantID,properties: {
-      'isGiftProduct': 'true'
+      'Gift Product': 'true'
     } };
 
     $.ajax({

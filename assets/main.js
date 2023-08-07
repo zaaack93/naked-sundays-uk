@@ -73,7 +73,7 @@ function addToCartJS(qty, variantID) {
     quantity: qty,
     id: variantID,
     properties: {
-      'isGiftProduct': 'true'
+      'Gift Product': 'true'
     }
   };
   $.ajax({

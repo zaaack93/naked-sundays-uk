@@ -33,7 +33,7 @@
   {%- capture cart_line_item -%}
   {%- assign property_first_char = p.first | slice: 0 -%}
     <div class="cart__item{% if forloop.last %} cart__item--no-border{% endif %}"
-      {%- for p in line_item.properties -%}{% if p contains 'isGiftProduct' %} data-gift-item {%endif%}{%endfor%}
+      {%- for p in line_item.properties -%}{% if p contains 'Gift Product' %} data-gift-item {%endif%}{%endfor%}
       data-item="{{ line_item.key }}"
       data-item-index="{{ forloop.index }}"
       data-item-title="{{- line_item.title | strip_html -}}"
@@ -84,7 +84,7 @@
                   {%- else -%}
                     {%- capture properties_html -%}
                       {{ properties_html }}
-                      {% unless p contains 'isGiftProduct' %}
+                      {% unless p contains 'Gift Product' %}
                       <p class="cart__item__property">
                         <strong>{{ p.first }}: </strong>
 

@@ -251,7 +251,7 @@
                 
             {% for item in cart.items %}
               {%- for p in item.properties -%}
-                {% if p contains 'isGiftProduct' %}
+                {% if p contains 'Gift Product' %}
                   {% assign isGiftAdded  = true %}
                 {%endif%}
               {%endfor%}
