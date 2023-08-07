@@ -19,13 +19,14 @@
       "blocks": {
         "15abf964-ec10-4384-ae3e-db2ce38c07d7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "1",
             "image": "shopify:\/\/shop_images\/4_5f9162fe-a3d9-4366-8a1f-441a84c70c82.jpg",
             "aspect_ratio": 0.5,
             "wide_image": true,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "link_text": "",
             "link": "",
